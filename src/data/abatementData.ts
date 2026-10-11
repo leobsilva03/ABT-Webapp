@@ -1,3 +1,5 @@
+import { IMAGES } from '../config/images';
+
 export interface ServiceItem {
   id: string;
   title: string;
@@ -36,7 +38,7 @@ export const SERVICES_DATA: ServiceItem[] = [
       'Complete documentation certificate of safe decontamination'
     ],
     containmentType: 'Type 3 Negative Air Enclosure with Decontamination Chamber',
-    image: '/src/assets/images/service_asbestos_removal_1791653486375.jpg'
+    image: IMAGES.asbestos
   },
   {
     id: 'lead',
@@ -60,7 +62,7 @@ export const SERVICES_DATA: ServiceItem[] = [
       'Encapsulation and permanent safe enclosure systems'
     ],
     containmentType: 'Sealed Barrier with HEPA Local Exhaust Filtration',
-    image: '/src/assets/images/service_lead_abatement_1791653494697.jpg'
+    image: IMAGES.lead
   },
   {
     id: 'mould',
@@ -84,7 +86,7 @@ export const SERVICES_DATA: ServiceItem[] = [
       'Post-remediation clearance air quality verification'
     ],
     containmentType: 'Level 2 & 3 Isolation Barriers with Continuous Dehumidification',
-    image: '/src/assets/images/service_mould_wall_remediation_1791654324290.jpg'
+    image: IMAGES.mould
   },
   {
     id: 'commercial',
@@ -108,7 +110,7 @@ export const SERVICES_DATA: ServiceItem[] = [
       'Turnkey prep for demolition, renovation, or tenant re-occupancy'
     ],
     containmentType: 'High-Volume Modular Industrial Negative Pressure Zones',
-    image: '/images/hero-abatement-team.jpg'
+    image: IMAGES.hero
   }
 ];
 

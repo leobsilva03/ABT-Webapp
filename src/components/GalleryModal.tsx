@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { X, ShieldCheck, CheckCircle2, ArrowRight } from 'lucide-react';
+import { IMAGES } from '../config/images';
 
 interface GalleryModalProps {
   isOpen: boolean;
@@ -18,7 +19,7 @@ export const GalleryModal: React.FC<GalleryModalProps> = ({ isOpen, onClose, onO
       category: 'asbestos',
       title: 'Commercial Asbestos Pipe Wrap Containment',
       location: 'Kitchener, ON',
-      image: '/src/assets/images/service_asbestos_removal_1791653486375.jpg',
+      image: IMAGES.asbestos,
       details: 'Type 3 containment zone with negative pressure differential monitoring and certified MOE waste disposal manifests.'
     },
     {
@@ -26,7 +27,7 @@ export const GalleryModal: React.FC<GalleryModalProps> = ({ isOpen, onClose, onO
       category: 'lead',
       title: 'Heritage Architectural Lead Stabilization',
       location: 'Toronto, ON',
-      image: '/src/assets/images/service_lead_abatement_1791653494697.jpg',
+      image: IMAGES.lead,
       details: 'HEPA shrouded negative vacuum mechanical stripping with zero airborne lead dust dispersion.'
     },
     {
@@ -34,7 +35,7 @@ export const GalleryModal: React.FC<GalleryModalProps> = ({ isOpen, onClose, onO
       category: 'mould',
       title: 'Residential Drywall Corner & Baseboard Mould Remediation',
       location: 'Waterloo, ON',
-      image: '/src/assets/images/service_mould_wall_remediation_1791654324290.jpg',
+      image: IMAGES.mould,
       details: 'Active containment line cut and antimicrobial treatment for extensive black mould infestation.'
     },
     {
@@ -42,7 +43,7 @@ export const GalleryModal: React.FC<GalleryModalProps> = ({ isOpen, onClose, onO
       category: 'asbestos',
       title: 'Multi-Room Renovation Hazmat Team',
       location: 'London, ON',
-      image: '/images/hero-abatement-team.jpg',
+      image: IMAGES.hero,
       details: 'Complete plastic containment enclosure with 3-stage decontamination shower facility.'
     },
     {
@@ -50,7 +51,7 @@ export const GalleryModal: React.FC<GalleryModalProps> = ({ isOpen, onClose, onO
       category: 'mould',
       title: 'Indoor Air Quality & Moisture Audit Inspection',
       location: 'Cambridge, ON',
-      image: '/src/assets/images/about_technician_ppe_1791653476448.jpg',
+      image: IMAGES.about,
       details: 'Certified technician calibrating precision air sampling pumps for PCM and TEM optical clearance.'
     }
   ];

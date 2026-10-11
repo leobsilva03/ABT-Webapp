@@ -1,5 +1,6 @@
 import React from 'react';
 import { Phone, ArrowRight, MapPin, Building2, Home } from 'lucide-react';
+import { IMAGES } from '../config/images';
 
 interface ServingOntarioBannerProps {
   onOpenQuote: () => void;
@@ -9,10 +10,10 @@ interface ServingOntarioBannerProps {
 export const ServingOntarioBanner: React.FC<ServingOntarioBannerProps> = ({ onOpenQuote, onOpenAreas }) => {
   return (
     <section id="contact-banner" className="relative bg-[#072620] text-white py-16 sm:py-20 overflow-hidden">
-      {/* Toronto Ontario Skyline Background Image */}
+      {/* Toronto Ontario Skyline Background Image - Hosted on GitHub */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/src/assets/images/ontario_toronto_skyline_banner_1791654473100.jpg"
+          src={IMAGES.skyline}
           alt="Toronto Ontario skyline at twilight across Lake Ontario"
           className="w-full h-full object-cover object-center"
           referrerPolicy="no-referrer"

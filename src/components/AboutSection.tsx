@@ -1,5 +1,6 @@
 import React from 'react';
 import { HardHat, ShieldCheck, Users, Sparkles, CheckCircle2 } from 'lucide-react';
+import { IMAGES } from '../config/images';
 
 interface AboutSectionProps {
   onOpenProcess: () => void;
@@ -38,7 +39,7 @@ export const AboutSection: React.FC<AboutSectionProps> = ({ onOpenProcess, onOpe
           <div className="lg:col-span-5 relative">
             <div className="relative rounded-2xl overflow-hidden shadow-xl border-4 border-white bg-slate-900 aspect-[4/3] lg:aspect-[4/4.2]">
               <img
-                src="/src/assets/images/about_technician_ppe_1791653476448.jpg"
+                src={IMAGES.about}
                 alt="ABT Environmental technician measuring air quality in containment"
                 className="w-full h-full object-cover object-center"
                 referrerPolicy="no-referrer"

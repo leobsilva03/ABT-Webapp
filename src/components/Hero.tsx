@@ -1,5 +1,6 @@
 import React from 'react';
 import { ArrowRight, ShieldCheck, CheckCircle2, AlertTriangle, Sparkles } from 'lucide-react';
+import { IMAGES } from '../config/images';
 
 interface HeroProps {
   onOpenQuote: () => void;
@@ -10,10 +11,10 @@ interface HeroProps {
 export const Hero: React.FC<HeroProps> = ({ onOpenQuote, onOpenProcess, onOpenService }) => {
   return (
     <section id="hero" className="relative bg-[#072620] text-white min-h-[560px] lg:min-h-[640px] flex items-center overflow-hidden">
-      {/* Background Hero Image */}
+      {/* Background Hero Image - Hosted on GitHub */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/images/hero-abatement-team.jpg"
+          src={IMAGES.hero}
           alt="ABT Environmental certified abatement team at work in containment"
           className="w-full h-full object-cover object-center scale-105 transform motion-safe:transition-transform motion-safe:duration-10000"
           referrerPolicy="no-referrer"

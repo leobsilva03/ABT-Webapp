@@ -1,5 +1,6 @@
 import React from 'react';
 import { X, Download, ExternalLink, Image as ImageIcon, Copy, Check } from 'lucide-react';
+import { IMAGES, GITHUB_RAW_BASE, GITHUB_REPO } from '../config/images';
 
 interface MediaAssetsModalProps {
   isOpen: boolean;
@@ -11,14 +12,12 @@ export const MediaAssetsModal: React.FC<MediaAssetsModalProps> = ({ isOpen, onCl
 
   if (!isOpen) return null;
 
-  const baseUrl = window.location.origin;
-
   const assets = [
     {
       name: 'Official Logo Vector',
       file: 'abt-logo.svg',
-      path: '/images/abt-logo.svg',
-      fullUrl: `${baseUrl}/images/abt-logo.svg`,
+      path: IMAGES.logo,
+      fullUrl: `${GITHUB_RAW_BASE}/abt-logo.svg`,
       description: 'High-res vector emblem, ABT Environmental wordmark & tagline.',
       category: 'Branding',
       aspect: 'Vector SVG'
@@ -26,8 +25,8 @@ export const MediaAssetsModal: React.FC<MediaAssetsModalProps> = ({ isOpen, onCl
     {
       name: 'Hero Abatement Team',
       file: 'hero-abatement-team.jpg',
-      path: '/images/hero-abatement-team.jpg',
-      fullUrl: `${baseUrl}/images/hero-abatement-team.jpg`,
+      path: IMAGES.hero,
+      fullUrl: `${GITHUB_RAW_BASE}/hero-abatement-team.jpg`,
       description: 'Certified technicians in PPE suits & respirators in containment.',
       category: 'Hero Banner',
       aspect: '16:9 Landscape'
@@ -35,8 +34,8 @@ export const MediaAssetsModal: React.FC<MediaAssetsModalProps> = ({ isOpen, onCl
     {
       name: 'About Section Technician',
       file: 'about-technician-ppe.jpg',
-      path: '/images/about-technician-ppe.jpg',
-      fullUrl: `${baseUrl}/images/about-technician-ppe.jpg`,
+      path: IMAGES.about,
+      fullUrl: `${GITHUB_RAW_BASE}/about-technician-ppe.jpg`,
       description: 'Technician measuring containment air quality with handheld device.',
       category: 'About Section',
       aspect: '4:3 Photo'
@@ -44,8 +43,8 @@ export const MediaAssetsModal: React.FC<MediaAssetsModalProps> = ({ isOpen, onCl
     {
       name: 'Asbestos Removal Service',
       file: 'service-asbestos-removal.jpg',
-      path: '/images/service-asbestos-removal.jpg',
-      fullUrl: `${baseUrl}/images/service-asbestos-removal.jpg`,
+      path: IMAGES.asbestos,
+      fullUrl: `${GITHUB_RAW_BASE}/service-asbestos-removal.jpg`,
       description: 'Technician abating pipe insulation near Danger Asbestos signage.',
       category: 'Services',
       aspect: '4:3 Photo'
@@ -53,8 +52,8 @@ export const MediaAssetsModal: React.FC<MediaAssetsModalProps> = ({ isOpen, onCl
     {
       name: 'Lead Abatement Service',
       file: 'service-lead-abatement.jpg',
-      path: '/images/service-lead-abatement.jpg',
-      fullUrl: `${baseUrl}/images/service-lead-abatement.jpg`,
+      path: IMAGES.lead,
+      fullUrl: `${GITHUB_RAW_BASE}/service-lead-abatement.jpg`,
       description: 'Remediation technician scraping lead paint with HEPA vacuum setup.',
       category: 'Services',
       aspect: '4:3 Photo'
@@ -62,8 +61,8 @@ export const MediaAssetsModal: React.FC<MediaAssetsModalProps> = ({ isOpen, onCl
     {
       name: 'Mould Remediation Service',
       file: 'service-mould-remediation.jpg',
-      path: '/images/service-mould-remediation.jpg',
-      fullUrl: `${baseUrl}/images/service-mould-remediation.jpg`,
+      path: IMAGES.mould,
+      fullUrl: `${GITHUB_RAW_BASE}/service-mould-remediation.jpg`,
       description: 'Technician pointing to containment cut line above black mould wall corner.',
       category: 'Services',
       aspect: '4:3 Photo'
@@ -71,8 +70,8 @@ export const MediaAssetsModal: React.FC<MediaAssetsModalProps> = ({ isOpen, onCl
     {
       name: 'Proudly Serving Ontario Skyline',
       file: 'ontario-toronto-skyline.jpg',
-      path: '/images/ontario-toronto-skyline.jpg',
-      fullUrl: `${baseUrl}/images/ontario-toronto-skyline.jpg`,
+      path: IMAGES.skyline,
+      fullUrl: `${GITHUB_RAW_BASE}/ontario-toronto-skyline.jpg`,
       description: 'Twilight panoramic view of the Toronto skyline across Lake Ontario.',
       category: 'Banner Backdrop',
       aspect: '16:9 Landscape'

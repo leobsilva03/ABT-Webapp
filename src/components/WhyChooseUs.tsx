@@ -1,5 +1,6 @@
 import React from 'react';
 import { Check, ArrowRight } from 'lucide-react';
+import { IMAGES } from '../config/images';
 
 interface WhyChooseUsProps {
   onOpenQuote: (service?: string) => void;
@@ -20,19 +21,19 @@ export const WhyChooseUs: React.FC<WhyChooseUsProps> = ({ onOpenQuote, onSelectS
       id: 'asbestos',
       title: 'Asbestos Removal',
       subtext: 'Safe removal of hazardous materials from your property.',
-      image: '/src/assets/images/service_asbestos_removal_1791653486375.jpg'
+      image: IMAGES.asbestos
     },
     {
       id: 'lead',
       title: 'Lead Abatement',
       subtext: 'Protecting buildings and people from lead exposure.',
-      image: '/src/assets/images/service_lead_abatement_1791653494697.jpg'
+      image: IMAGES.lead
     },
     {
       id: 'mould',
       title: 'Mould Remediation',
       subtext: 'Cleaner air. Healthier spaces.',
-      image: '/src/assets/images/service_mould_wall_remediation_1791654324290.jpg'
+      image: IMAGES.mould
     }
   ];
 
