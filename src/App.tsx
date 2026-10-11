@@ -12,7 +12,6 @@ import { ProcessModal } from './components/ProcessModal';
 import { ServiceAreasModal } from './components/ServiceAreasModal';
 import { GalleryModal } from './components/GalleryModal';
 import { HealthSafetyModal } from './components/HealthSafetyModal';
-import { MediaAssetsModal } from './components/MediaAssetsModal';
 import { Phone, ArrowRight } from 'lucide-react';
 
 export default function App() {
@@ -23,7 +22,6 @@ export default function App() {
   const [serviceAreasModalOpen, setServiceAreasModalOpen] = useState(false);
   const [galleryModalOpen, setGalleryModalOpen] = useState(false);
   const [healthSafetyModalOpen, setHealthSafetyModalOpen] = useState(false);
-  const [mediaAssetsModalOpen, setMediaAssetsModalOpen] = useState(false);
 
   const handleOpenQuote = (service?: string) => {
     setSelectedQuoteService(service);
@@ -88,7 +86,6 @@ export default function App() {
         onOpenAreas={() => setServiceAreasModalOpen(true)}
         onOpenGallery={() => setGalleryModalOpen(true)}
         onOpenHealthSafety={() => setHealthSafetyModalOpen(true)}
-        onOpenMediaAssets={() => setMediaAssetsModalOpen(true)}
       />
 
       {/* Mobile Floating Action Bottom Strip (Only on small screens, within 15% sticky cap) */}
@@ -144,11 +141,6 @@ export default function App() {
         isOpen={healthSafetyModalOpen}
         onClose={() => setHealthSafetyModalOpen(false)}
         onOpenQuote={() => handleOpenQuote()}
-      />
-
-      <MediaAssetsModal
-        isOpen={mediaAssetsModalOpen}
-        onClose={() => setMediaAssetsModalOpen(false)}
       />
     </div>
   );

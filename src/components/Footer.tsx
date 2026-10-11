@@ -9,7 +9,6 @@ interface FooterProps {
   onOpenAreas: () => void;
   onOpenGallery: () => void;
   onOpenHealthSafety: () => void;
-  onOpenMediaAssets: () => void;
 }
 
 export const Footer: React.FC<FooterProps> = ({
@@ -19,7 +18,6 @@ export const Footer: React.FC<FooterProps> = ({
   onOpenAreas,
   onOpenGallery,
   onOpenHealthSafety,
-  onOpenMediaAssets,
 }) => {
   const scrollToSection = (id: string) => {
     const el = document.getElementById(id);
@@ -123,15 +121,6 @@ export const Footer: React.FC<FooterProps> = ({
                   className="hover:text-emerald-400 transition-colors text-left cursor-pointer"
                 >
                   Contact
-                </button>
-              </li>
-              <li className="pt-1">
-                <button
-                  onClick={onOpenMediaAssets}
-                  className="text-emerald-400 hover:text-emerald-300 font-semibold transition-colors text-left cursor-pointer flex items-center gap-1.5 text-xs"
-                >
-                  <span>Website Images &amp; Assets</span>
-                  <span className="text-[9px] bg-emerald-900/80 border border-emerald-600/50 text-emerald-200 px-1.5 py-0.5 rounded font-mono">Download</span>
                 </button>
               </li>
             </ul>
