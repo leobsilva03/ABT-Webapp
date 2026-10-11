@@ -1,6 +1,11 @@
 /**
- * Production images served directly from GitHub repository:
- * https://github.com/leobsilva03/ABT-Webapp/tree/main/src/assets/images
+ * Production images configuration.
+ *
+ * Uses root-relative static asset paths (`/images/<filename>`) which are
+ * guaranteed to load reliably across all environments (local preview, AI Studio,
+ * Vercel, Netlify, GitHub Pages) without CORS issues, rate limits, or ad-blocker restrictions.
+ *
+ * Also provides direct links to your GitHub repository for external referencing.
  */
 
 export const GITHUB_REPO = 'leobsilva03/ABT-Webapp';
@@ -8,11 +13,11 @@ export const GITHUB_RAW_BASE = 'https://raw.githubusercontent.com/leobsilva03/AB
 export const GITHUB_CDN_BASE = 'https://cdn.jsdelivr.net/gh/leobsilva03/ABT-Webapp@main/src/assets/images';
 
 export const IMAGES = {
-  logo: `${GITHUB_CDN_BASE}/abt-logo.svg`,
-  hero: `${GITHUB_CDN_BASE}/hero-abatement-team.jpg`,
-  about: `${GITHUB_CDN_BASE}/about-technician-ppe.jpg`,
-  asbestos: `${GITHUB_CDN_BASE}/service-asbestos-removal.jpg`,
-  lead: `${GITHUB_CDN_BASE}/service-lead-abatement.jpg`,
-  mould: `${GITHUB_CDN_BASE}/service-mould-remediation.jpg`,
-  skyline: `${GITHUB_CDN_BASE}/ontario-toronto-skyline.jpg`,
+  logo: '/images/abt-logo.svg',
+  hero: '/images/hero-abatement-team.jpg',
+  about: '/images/about-technician-ppe.jpg',
+  asbestos: '/images/service-asbestos-removal.jpg',
+  lead: '/images/service-lead-abatement.jpg',
+  mould: '/images/service-mould-remediation.jpg',
+  skyline: '/images/ontario-toronto-skyline.jpg',
 };
