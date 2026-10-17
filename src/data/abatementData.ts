@@ -115,7 +115,7 @@ export const SERVICE_AREAS = [
   {
     region: 'Greater Toronto Area (GTA)',
     cities: ['Toronto', 'Mississauga', 'Brampton', 'Markham', 'Vaughan', 'Richmond Hill', 'Oakville', 'Burlington'],
-    responseTime: '< 45 mins'
+    responseTime: '< 90 mins'
   },
   {
     region: 'Waterloo Region & Guelph',
@@ -125,12 +125,12 @@ export const SERVICE_AREAS = [
   {
     region: 'Hamilton & Niagara',
     cities: ['Hamilton', 'Stoney Creek', 'St. Catharines', 'Niagara Falls', 'Grimsby', 'Welland'],
-    responseTime: '< 45 mins'
+    responseTime: '< 90 mins'
   },
   {
     region: 'London & Southwestern Ontario',
     cities: ['London', 'Woodstock', 'Stratford', 'St. Thomas', 'Chatham-Kent', 'Windsor', 'Sarnia'],
-    responseTime: '< 60 mins'
+    responseTime: '< 90 mins'
   },
   {
     region: 'Central & Eastern Ontario',
