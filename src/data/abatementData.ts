@@ -80,8 +80,7 @@ export const SERVICES_DATA: ServiceItem[] = [
       'Thermal imaging and pinless moisture mapping to find hidden leaks',
       'Antimicrobial botanical fogging and non-toxic disinfection',
       'Physical removal of porous contaminated drywall & insulation',
-      'HEPA vacuuming and industrial dehumidification stabilization',
-      'Post-remediation clearance air quality verification'
+      'HEPA vacuuming and industrial dehumidification stabilization'
     ],
     containmentType: 'Level 2 & 3 Isolation Barriers with Continuous Dehumidification',
     image: IMAGES.mould
