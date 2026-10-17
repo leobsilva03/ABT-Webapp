@@ -9,7 +9,8 @@ import {
   ShieldCheck, 
   Clock, 
   Flame, 
-  FileText 
+  FileText,
+  Mail 
 } from 'lucide-react';
 import { AbtLogo } from './AbtLogo';
 
@@ -233,11 +234,14 @@ export const Header: React.FC<HeaderProps> = ({
               </button>
             </div>
 
-            {/* Quick 24/7 indicator */}
-            <div className="flex items-center gap-2 text-xs text-emerald-200">
-              <span className="inline-block w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
-              <span>24/7 Emergency Dispatch</span>
-            </div>
+            {/* Contact Email */}
+            <a 
+              href="mailto:info@abtenvironmental.ca" 
+              className="flex items-center gap-1.5 text-xs text-emerald-200 hover:text-white transition-colors group"
+            >
+              <Mail className="w-3.5 h-3.5 text-emerald-400 group-hover:text-emerald-300 transition-colors" />
+              <span>info@abtenvironmental.ca</span>
+            </a>
           </div>
         </div>
       </nav>
@@ -323,7 +327,14 @@ export const Header: React.FC<HeaderProps> = ({
             </div>
 
             {/* Mobile Contact Quick Actions */}
-            <div className="pt-4 flex flex-col gap-3">
+            <div className="pt-4 flex flex-col gap-2.5">
+              <a
+                href="mailto:info@abtenvironmental.ca"
+                className="w-full py-2.5 bg-emerald-900/60 hover:bg-emerald-900 border border-emerald-700/40 rounded-md text-center text-xs font-semibold text-emerald-100 flex items-center justify-center gap-2 transition-colors"
+              >
+                <Mail className="w-3.5 h-3.5 text-emerald-400" />
+                <span>info@abtenvironmental.ca</span>
+              </a>
               <a
                 href="tel:5198047779"
                 className="w-full py-3 bg-emerald-800/80 hover:bg-emerald-800 rounded-md text-center text-sm font-semibold text-white flex items-center justify-center gap-2"
