@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 300" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1020 300" width="100%" height="100%">
   <defs>
     <style>
       @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@700;800&amp;display=swap');
@@ -6,81 +6,103 @@
     </style>
   </defs>
 
-  <g id="emblem" transform="translate(15, 0)">
-    <!-- Bottom Stem Notch -->
+  <!-- Three Leaf Foliage Emblem matching IMG_4645 -->
+  <g id="emblem" transform="translate(10, 0)">
+    <!-- Bottom Stem Chevron Notch -->
     <path 
       d="M 124 228 L 148 266 L 172 228" 
       fill="none" 
-      stroke="#0c3a2d" 
+      stroke="#0f382c" 
       stroke-width="9.5" 
       stroke-linecap="round" 
       stroke-linejoin="round"
-    />
-
-    <!-- Left Leaf -->
-    <path 
-      d="M 144 242 C 78 244 32 195 34 135 C 36 92 68 85 82 86 C 114 88 135 152 144 242 Z" 
-      fill="none" 
-      stroke="#0c3a2d" 
-      stroke-width="9.5" 
-      stroke-linecap="round" 
-      stroke-linejoin="round"
-    />
-    <!-- Left Leaf Vein -->
-    <path 
-      d="M 64 104 L 142 228" 
-      fill="none" 
-      stroke="#0c3a2d" 
-      stroke-width="8.5" 
-      stroke-linecap="round"
-    />
-
-    <!-- Right Leaf -->
-    <path 
-      d="M 152 242 C 218 244 264 195 262 135 C 260 92 228 85 214 86 C 182 88 161 152 152 242 Z" 
-      fill="none" 
-      stroke="#0c3a2d" 
-      stroke-width="9.5" 
-      stroke-linecap="round" 
-      stroke-linejoin="round"
-    />
-    <!-- Right Leaf Vein -->
-    <path 
-      d="M 232 104 L 154 228" 
-      fill="none" 
-      stroke="#0c3a2d" 
-      stroke-width="8.5" 
-      stroke-linecap="round"
     />
 
     <!-- Center Upright Leaf -->
     <path 
-      d="M 148 38 C 96 95 86 172 148 245 C 210 172 200 95 148 38 Z" 
+      d="M 148 26 C 92 84 84 162 148 238 C 212 162 204 84 148 26 Z" 
       fill="none" 
-      stroke="#0c3a2d" 
+      stroke="#0f382c" 
       stroke-width="9.5" 
       stroke-linecap="round" 
       stroke-linejoin="round"
     />
-    <!-- Center Vein -->
+    <!-- Center Leaf Vein -->
     <path 
-      d="M 148 88 L 148 242" 
+      d="M 148 76 L 148 236" 
       fill="none" 
-      stroke="#0c3a2d" 
+      stroke="#0f382c" 
+      stroke-width="8.5" 
+      stroke-linecap="round"
+    />
+
+    <!-- Left Outstretched Leaf -->
+    <path 
+      d="M 144 236 C 82 236 28 178 36 122 C 38 104 54 94 72 90 C 96 86 126 142 144 236 Z" 
+      fill="none" 
+      stroke="#0f382c" 
+      stroke-width="9.5" 
+      stroke-linecap="round" 
+      stroke-linejoin="round"
+    />
+    <!-- Left Leaf Center Vein -->
+    <path 
+      d="M 64 102 L 140 226" 
+      fill="none" 
+      stroke="#0f382c" 
+      stroke-width="8.5" 
+      stroke-linecap="round"
+    />
+
+    <!-- Right Outstretched Leaf -->
+    <path 
+      d="M 152 236 C 214 236 268 178 260 122 C 258 104 242 94 224 90 C 200 86 170 142 152 236 Z" 
+      fill="none" 
+      stroke="#0f382c" 
+      stroke-width="9.5" 
+      stroke-linecap="round" 
+      stroke-linejoin="round"
+    />
+    <!-- Right Leaf Center Vein -->
+    <path 
+      d="M 232 102 L 156 226" 
+      fill="none" 
+      stroke="#0f382c" 
       stroke-width="8.5" 
       stroke-linecap="round"
     />
   </g>
 
-  <!-- Typography matching IMG_4645.jpeg -->
-  <g class="logo-brand" fill="#0c3a2d">
-    <!-- ABT -->
-    <text x="310" y="102" font-size="98" font-weight="800" letter-spacing="-0.02em">ABT</text>
-    
-    <!-- Environmental -->
-    <text x="310" y="196" font-size="78" font-weight="700" letter-spacing="-0.02em">Environmental</text>
-    
-    <!-- ASBESTOS | LEAD | MOULD -->
-    <text x="312" y="260" font-size="29" font-weight="700" letter-spacing="0.22em">ASBESTOS &nbsp;|&nbsp; LEAD &nbsp;|&nbsp; MOULD</text>
+  <!-- Typography: ABT Environmental / ASBESTOS | LEAD | MOULD -->
+  <g fill="#0f382c" class="logo-brand">
+    <text 
+      x="310" 
+      y="102" 
+      font-size="106" 
+      font-weight="800" 
+      letter-spacing="-0.02em"
+    >
+      ABT
+    </text>
+
+    <text 
+      x="310" 
+      y="198" 
+      font-size="78" 
+      font-weight="700" 
+      letter-spacing="-0.015em"
+    >
+      Environmental
+    </text>
+
+    <text 
+      x="312" 
+      y="262" 
+      font-size="28" 
+      font-weight="700" 
+      letter-spacing="0.22em"
+    >
+      ASBESTOS &nbsp;&nbsp;|&nbsp;&nbsp; LEAD &nbsp;&nbsp;|&nbsp;&nbsp; MOULD
+    </text>
   </g>
 </svg>
