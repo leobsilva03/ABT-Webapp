@@ -57,7 +57,6 @@ export const SERVICES_DATA: ServiceItem[] = [
       'Chemical paint stripping & stabilization without toxic dust generation',
       'HEPA vacuum shrouded mechanical scraping & needle scaling',
       'Critical barrier plastic containment with air filtration',
-      'Lead dust wipe clearance sampling and lab certification',
       'Encapsulation and permanent safe enclosure systems'
     ],
     containmentType: 'Sealed Barrier with HEPA Local Exhaust Filtration',
