@@ -1,5 +1,5 @@
 import React from 'react';
-import { HardHat, ShieldCheck, Users, Sparkles, CheckCircle2 } from 'lucide-react';
+import { HardHat, ShieldCheck, Users, CheckCircle2 } from 'lucide-react';
 import { IMAGES } from '../config/images';
 
 interface AboutSectionProps {
@@ -23,11 +23,6 @@ export const AboutSection: React.FC<AboutSectionProps> = ({ onOpenProcess, onOpe
       icon: Users,
       title: 'Professional & Respectful Team',
       description: 'Discreet, polite service with minimal disturbance to residents or staff.'
-    },
-    {
-      icon: Sparkles,
-      title: 'Clean-Up & Clearance Testing',
-      description: 'Negative air HEPA scrubbers and third-party certified air quality clearance.'
     }
   ];
 
@@ -75,14 +70,14 @@ export const AboutSection: React.FC<AboutSectionProps> = ({ onOpenProcess, onOpe
               With years of industry experience, ABT Environmental is committed to delivering high-quality abatement services that meet all Ontario regulations. Our team is trained, certified and equipped with the latest technology to keep your property and people safe.
             </p>
 
-            {/* 4 Feature Items Grid */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 pt-2">
+            {/* 3 Core Highlights */}
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 pt-2">
               {highlights.map((item, idx) => {
                 const IconComponent = item.icon;
                 return (
-                  <div key={idx} className="flex items-start gap-4 p-4 rounded-xl bg-white border border-slate-200/70 shadow-xs hover:border-emerald-500/30 transition-colors">
-                    <div className="w-12 h-12 rounded-xl bg-emerald-50 text-emerald-700 flex items-center justify-center shrink-0 border border-emerald-100">
-                      <IconComponent className="w-6 h-6" />
+                  <div key={idx} className="flex flex-col gap-3 p-4 rounded-xl bg-white border border-slate-200/70 shadow-xs hover:border-emerald-500/30 transition-colors">
+                    <div className="w-11 h-11 rounded-xl bg-emerald-50 text-emerald-700 flex items-center justify-center shrink-0 border border-emerald-100">
+                      <IconComponent className="w-5 h-5" />
                     </div>
                     <div>
                       <h3 className="font-bold text-slate-900 text-sm leading-snug mb-1">
@@ -103,7 +98,7 @@ export const AboutSection: React.FC<AboutSectionProps> = ({ onOpenProcess, onOpe
                 onClick={onOpenProcess}
                 className="text-xs sm:text-sm font-bold text-[#0D4439] hover:text-emerald-700 flex items-center gap-1.5 cursor-pointer"
               >
-                <span>Read our 4-Step Abatement Process</span>
+                <span>Read our 3-Step Abatement Process</span>
                 <span>→</span>
               </button>
               <span className="text-slate-300">·</span>

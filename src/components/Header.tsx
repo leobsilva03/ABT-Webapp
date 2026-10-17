@@ -304,7 +304,7 @@ export const Header: React.FC<HeaderProps> = ({
                 onClick={() => { setMobileMenuOpen(false); onOpenProcess(); }}
                 className="text-left py-2 text-slate-100 hover:text-white"
               >
-                Our 4-Step Process
+                Our 3-Step Process
               </button>
               <button
                 onClick={() => { setMobileMenuOpen(false); onOpenHealthSafety(); }}

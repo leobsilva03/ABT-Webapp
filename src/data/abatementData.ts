@@ -142,22 +142,17 @@ export const SERVICE_AREAS = [
 export const PROCESS_STEPS = [
   {
     step: '01',
-    title: 'Site Inspection & Testing',
-    desc: 'Our certified technicians conduct an on-site hazard audit with bulk sampling, moisture mapping, and independent laboratory analysis to confirm hazard levels.'
+    title: 'Site Inspection & Assessment',
+    desc: 'Our certified technicians conduct an on-site hazard audit with bulk sampling, moisture mapping, and thorough risk analysis.'
   },
   {
     step: '02',
     title: 'Containment & Air Scrubbing',
-    desc: 'We erect air-tight poly barriers, install 3-stage decontamination chambers, and initiate continuous negative air pressure with HEPA filtration units.'
+    desc: 'We erect air-tight poly barriers, install sealed decontamination chambers, and initiate continuous negative air pressure with HEPA filtration units.'
   },
   {
     step: '03',
-    title: 'Safe Certified Abatement',
-    desc: 'Trained hazmat specialists in full PPE remove hazardous materials using wet methods and certified handling procedures, sealing all waste in regulated containers.'
-  },
-  {
-    step: '04',
-    title: 'Clearance Testing & Sign-Off',
-    desc: 'Following thorough HEPA vacuuming and wiping, independent air sampling verifies zero airborne contamination before removing containment, accompanied by official certificates.'
+    title: 'Safe Certified Abatement & Disposal',
+    desc: 'Trained hazmat specialists in full PPE safely remove and package hazardous materials using wet methods, sealing all waste in regulated containers for certified manifest transport.'
   }
 ];

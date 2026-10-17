@@ -24,10 +24,10 @@ export const ProcessModal: React.FC<ProcessModalProps> = ({ isOpen, onClose, onO
               ONTARIO SAFETY STANDARD
             </span>
             <h3 className="text-xl sm:text-2xl font-bold tracking-tight text-white">
-              Our 4-Step Abatement Process
+              Our 3-Step Abatement Process
             </h3>
             <p className="text-xs sm:text-sm text-emerald-100/90 mt-1">
-              Rigorous containment, certified execution, and independent clearance testing.
+              Rigorous containment, certified execution, and safe regulated disposal.
             </p>
           </div>
           <button
@@ -40,7 +40,7 @@ export const ProcessModal: React.FC<ProcessModalProps> = ({ isOpen, onClose, onO
         </div>
 
         <div className="p-5 sm:p-7 space-y-6 max-h-[75vh] overflow-y-auto">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {PROCESS_STEPS.map((step) => (
               <div 
                 key={step.step}
