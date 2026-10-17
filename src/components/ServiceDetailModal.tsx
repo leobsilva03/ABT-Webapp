@@ -64,9 +64,6 @@ export const ServiceDetailModal: React.FC<ServiceDetailModalProps> = ({
               <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
                 {service.description}
               </p>
-              <div className="mt-3 p-2.5 rounded-lg bg-emerald-50 border border-emerald-100 text-[11px] text-emerald-900 font-medium">
-                <strong>Standard Protocol:</strong> {service.containmentType}
-              </div>
             </div>
           </div>
 
@@ -95,7 +92,7 @@ export const ServiceDetailModal: React.FC<ServiceDetailModalProps> = ({
               <div className="flex items-center gap-2 mb-3">
                 <FileCheck className="w-4 h-4 text-emerald-700" />
                 <h5 className="font-bold text-xs uppercase tracking-wider text-emerald-900">
-                  ABT Certified Decontamination Protocol
+                  ABT Certified Solutions &amp; Containment
                 </h5>
               </div>
               <ul className="space-y-2 text-xs text-emerald-950">

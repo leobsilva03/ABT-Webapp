@@ -66,7 +66,7 @@ export const ServicesOverview: React.FC<ServicesOverviewProps> = ({ onSelectServ
             Specialized Abatement Solutions
           </h2>
           <p className="mt-3 text-sm sm:text-base text-slate-600">
-            Strict containment protocols, advanced negative air scrubbers, and regulatory clearance testing for every hazard.
+            Certified containment, advanced negative air scrubbers, and regulatory clearance testing for every hazard.
           </p>
         </div>
 

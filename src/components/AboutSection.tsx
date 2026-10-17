@@ -103,7 +103,7 @@ export const AboutSection: React.FC<AboutSectionProps> = ({ onOpenProcess, onOpe
                 onClick={onOpenProcess}
                 className="text-xs sm:text-sm font-bold text-[#0D4439] hover:text-emerald-700 flex items-center gap-1.5 cursor-pointer"
               >
-                <span>Read our 4-Step Safety Protocol</span>
+                <span>Read our 4-Step Abatement Process</span>
                 <span>→</span>
               </button>
               <span className="text-slate-300">·</span>
