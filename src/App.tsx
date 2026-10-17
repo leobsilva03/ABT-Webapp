@@ -91,11 +91,11 @@ export default function App() {
       {/* Mobile Floating Action Bottom Strip (Only on small screens, within 15% sticky cap) */}
       <aside aria-label="Mobile emergency contact" className="sm:hidden fixed bottom-0 left-0 right-0 z-30 bg-[#06221c]/95 backdrop-blur-md border-t border-emerald-800/60 p-2.5 flex items-center gap-2">
         <a
-          href="tel:5195550123"
+          href="tel:5198047779"
           className="flex-1 py-2.5 px-3 bg-[#0D4439] hover:bg-[#083028] text-white text-xs font-bold rounded-lg flex items-center justify-center gap-2 shadow"
         >
           <Phone className="w-4 h-4 text-emerald-300" />
-          <span>(519) 555-0123</span>
+          <span>(519) 804-7779</span>
         </a>
         <button
           onClick={() => handleOpenQuote()}

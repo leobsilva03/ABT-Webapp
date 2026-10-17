@@ -62,11 +62,11 @@ export const ServingOntarioBanner: React.FC<ServingOntarioBannerProps> = ({ onOp
           <div className="flex flex-col sm:flex-row items-center gap-3.5 shrink-0 w-full sm:w-auto">
             {/* Phone Button */}
             <a
-              href="tel:5195550123"
+              href="tel:5198047779"
               className="w-full sm:w-auto px-6 py-3.5 rounded-md bg-[#082e27] hover:bg-[#06241e] border border-emerald-600/40 text-white font-bold text-sm sm:text-base flex items-center justify-center gap-2.5 shadow-sm transition-all duration-150"
             >
               <Phone className="w-4 h-4 text-emerald-400" />
-              <span>(519) 555-0123</span>
+              <span>(519) 804-7779</span>
             </a>
 
             {/* Quote Button */}

@@ -73,14 +73,14 @@ export const Header: React.FC<HeaderProps> = ({
 
           {/* Phone Callout */}
           <a 
-            href="tel:5195550123" 
+            href="tel:5198047779" 
             className="flex items-center gap-2.5 text-left text-slate-600 hover:text-[#0D4439] transition-colors group"
           >
             <div className="w-8 h-8 rounded-full bg-emerald-50 text-emerald-700 flex items-center justify-center shrink-0 group-hover:bg-emerald-100 transition-colors">
               <Phone className="w-4 h-4" />
             </div>
             <div>
-              <p className="font-bold text-sm text-slate-900 leading-tight group-hover:text-emerald-700 transition-colors">(519) 555-0123</p>
+              <p className="font-bold text-sm text-slate-900 leading-tight group-hover:text-emerald-700 transition-colors">(519) 804-7779</p>
               <p className="text-[11px] text-slate-500">Get a Free Quote</p>
             </div>
           </a>
@@ -90,7 +90,7 @@ export const Header: React.FC<HeaderProps> = ({
         <div className="flex items-center gap-2 sm:gap-3">
           {/* Mobile Direct Phone Button */}
           <a
-            href="tel:5195550123"
+            href="tel:5198047779"
             aria-label="Call for free quote"
             className="lg:hidden p-2 rounded-lg bg-emerald-50 text-emerald-800 hover:bg-emerald-100 transition-colors"
           >
@@ -325,11 +325,11 @@ export const Header: React.FC<HeaderProps> = ({
             {/* Mobile Contact Quick Actions */}
             <div className="pt-4 flex flex-col gap-3">
               <a
-                href="tel:5195550123"
+                href="tel:5198047779"
                 className="w-full py-3 bg-emerald-800/80 hover:bg-emerald-800 rounded-md text-center text-sm font-semibold text-white flex items-center justify-center gap-2"
               >
                 <Phone className="w-4 h-4 text-emerald-300" />
-                <span>Call (519) 555-0123</span>
+                <span>Call (519) 804-7779</span>
               </a>
               <button
                 onClick={() => { setMobileMenuOpen(false); onOpenQuote(); }}

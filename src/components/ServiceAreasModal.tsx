@@ -80,11 +80,11 @@ export const ServiceAreasModal: React.FC<ServiceAreasModalProps> = ({
               <p className="text-[11px] text-emerald-700">We dispatch province-wide for commercial and industrial abatement contracts.</p>
             </div>
             <a
-              href="tel:5195550123"
+              href="tel:5198047779"
               className="px-4 py-2 bg-[#0D4439] text-white rounded-lg text-xs font-bold flex items-center gap-2 hover:bg-[#083028] shrink-0"
             >
               <Phone className="w-3.5 h-3.5" />
-              <span>Call (519) 555-0123</span>
+              <span>Call (519) 804-7779</span>
             </a>
           </div>
 

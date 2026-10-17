@@ -100,11 +100,11 @@ export const QuoteModal: React.FC<QuoteModalProps> = ({ isOpen, onClose, initial
 
             <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
               <a
-                href="tel:5195550123"
+                href="tel:5198047779"
                 className="w-full sm:w-auto px-5 py-2.5 bg-[#0D4439] hover:bg-[#09322a] text-white text-xs font-bold rounded-lg flex items-center justify-center gap-2 shadow"
               >
                 <Phone className="w-4 h-4" />
-                <span>Call Dispatch Now: (519) 555-0123</span>
+                <span>Call Dispatch Now: (519) 804-7779</span>
               </a>
               <button
                 onClick={handleReset}
