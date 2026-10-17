@@ -68,7 +68,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenQuote, onOpenProcess, onOpenSe
           </div>
 
           {/* Trust Highlights Strip below CTAs */}
-          <div className="pt-6 border-t border-white/15 grid grid-cols-2 sm:grid-cols-3 gap-3 text-xs text-slate-300">
+          <div className="pt-6 border-t border-white/15 flex flex-wrap items-center gap-5 sm:gap-8 text-xs text-slate-300">
             <div className="flex items-center gap-2">
               <CheckCircle2 className="w-4 h-4 text-emerald-400 shrink-0" />
               <span>MOE &amp; WSIB Compliant</span>
@@ -76,10 +76,6 @@ export const Hero: React.FC<HeroProps> = ({ onOpenQuote, onOpenProcess, onOpenSe
             <div className="flex items-center gap-2">
               <CheckCircle2 className="w-4 h-4 text-emerald-400 shrink-0" />
               <span>Type 1, 2, 3 Certified</span>
-            </div>
-            <div className="flex items-center gap-2 col-span-2 sm:col-span-1">
-              <CheckCircle2 className="w-4 h-4 text-emerald-400 shrink-0" />
-              <span>Air Clearance Verified</span>
             </div>
           </div>
         </div>
