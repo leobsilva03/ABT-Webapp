@@ -36,7 +36,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenQuote, onOpenProcess, onOpenSe
 
           {/* Main Headline */}
           <h1 className="text-3xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-white leading-[1.12] mb-5 text-balance">
-            Asbestos, Lead &amp; Mould Abatement
+            Asbestos, Lead Abatement &amp; Mold Remediation
           </h1>
 
           {/* Subheading */}
@@ -46,7 +46,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenQuote, onOpenProcess, onOpenSe
 
           {/* Paragraph description */}
           <p className="text-sm sm:text-base lg:text-lg text-slate-200 leading-relaxed mb-8 sm:mb-10 max-w-2xl text-pretty font-normal">
-            ABT Environmental provides comprehensive asbestos, lead and mould abatement services for residential, commercial and industrial properties across Ontario.
+            ABT Environmental provides comprehensive asbestos, lead abatement and mold remediation services for residential, commercial and industrial properties across Ontario.
           </p>
 
           {/* Dual Action CTAs matching layout */}
