@@ -37,7 +37,7 @@ export const Footer: React.FC<FooterProps> = ({
             </div>
 
             <p className="text-xs sm:text-sm text-slate-400 leading-relaxed max-w-sm mb-4">
-              Licensed hazardous materials remediation contractors serving residential, commercial and industrial properties across Ontario with certified containment, HEPA filtration and air clearance verification.
+              Licensed hazardous materials remediation contractors serving residential, commercial and industrial properties across Ontario with certified containment, HEPA filtration and safe decontamination verification.
             </p>
 
             <p className="text-xs text-emerald-300 font-medium">

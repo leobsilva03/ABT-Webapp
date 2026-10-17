@@ -160,7 +160,7 @@ export const Header: React.FC<HeaderProps> = ({
                     >
                       <div>
                         <p className="font-semibold text-slate-900">Asbestos Abatement</p>
-                        <p className="text-[11px] text-slate-500">Type 1, 2, 3 Removal & Air Clearance</p>
+                        <p className="text-[11px] text-slate-500">Type 1, 2, 3 Certified Containment &amp; Removal</p>
                       </div>
                       <ArrowRight className="w-3.5 h-3.5 text-slate-400" />
                     </button>

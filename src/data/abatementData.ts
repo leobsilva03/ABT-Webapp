@@ -34,7 +34,6 @@ export const SERVICES_DATA: ServiceItem[] = [
       'Type 1, 2, and 3 full glove-bag and negative-pressure containment',
       'HEPA-filtered air scrubbers operating under negative differential pressure',
       'Certified Ontario MOE manifest transportation & disposal',
-      'Third-party air clearance testing with PCM / TEM analysis',
       'Complete documentation certificate of safe decontamination'
     ],
     containmentType: 'Type 3 Negative Air Enclosure with Decontamination Chamber',
