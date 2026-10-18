@@ -46,14 +46,14 @@ export const Header: React.FC<HeaderProps> = ({
     <header className="w-full bg-white sticky top-0 z-40 shadow-sm border-b border-slate-100">
       {/* Top Utility Row */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3.5 flex items-center justify-between gap-4">
-        {/* Brand Logo Lockup - Replaced with uploaded image logo (30% larger) */}
+        {/* Brand Logo Lockup - Exact image from uploaded IMG_4645 with deleted white background */}
         <a 
           href="#" 
           onClick={(e) => { e.preventDefault(); scrollToSection('hero'); }}
-          className="flex items-center group focus:outline-none transition-transform hover:opacity-95"
+          className="shrink-0 flex items-center group focus:outline-none transition-transform hover:opacity-95"
           aria-label="ABT Environmental Home"
         >
-          <AbtLogo className="h-[52px] sm:h-[62px] md:h-[68px] lg:h-[70px] w-auto max-w-[275px] sm:max-w-[340px] md:max-w-[370px] object-contain transition-transform group-hover:scale-[1.02]" variant="light" />
+          <AbtLogo className="h-12 sm:h-14 md:h-16 lg:h-[70px] w-auto shrink-0 transition-transform group-hover:scale-[1.02]" variant="light" />
         </a>
 
         {/* Center Indicators - Desktop */}

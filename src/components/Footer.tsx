@@ -33,7 +33,7 @@ export const Footer: React.FC<FooterProps> = ({
           {/* Col 1: Brand Info */}
           <div className="lg:col-span-2">
             <div className="mb-4">
-              <AbtLogo className="h-11 sm:h-13 w-auto max-w-[280px]" variant="dark" />
+              <AbtLogo className="h-12 sm:h-14 w-auto shrink-0" variant="dark" />
             </div>
 
             <p className="text-xs sm:text-sm text-slate-400 leading-relaxed max-w-sm mb-4">

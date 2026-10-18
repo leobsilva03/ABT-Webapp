@@ -7,7 +7,7 @@ interface AbtLogoProps {
 }
 
 export const AbtLogo: React.FC<AbtLogoProps> = ({ 
-  className = "h-11 sm:h-13 w-auto object-contain", 
+  className = "h-12 sm:h-14 w-auto shrink-0", 
   variant = 'light',
   alt = "ABT Environmental"
 }) => {
@@ -17,7 +17,10 @@ export const AbtLogo: React.FC<AbtLogoProps> = ({
     <img 
       src={logoSrc}
       alt={alt}
-      className={`${className} select-none`}
+      width={1582}
+      height={424}
+      style={{ aspectRatio: '1582 / 424' }}
+      className={`shrink-0 block select-none object-contain ${className}`}
       loading="eager"
       decoding="async"
     />
