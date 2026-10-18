@@ -10,72 +10,71 @@ export const AbtLogo: React.FC<AbtLogoProps> = ({
   variant = 'light' 
 }) => {
   const mainColor = variant === 'light' ? '#0f382c' : '#ffffff';
-  const subtitleColor = variant === 'light' ? '#0f382c' : '#ffffff';
 
   return (
     <svg 
-      viewBox="0 0 1020 300" 
+      viewBox="0 0 880 230" 
       fill="none" 
       xmlns="http://www.w3.org/2000/svg"
       className={`${className} select-none`}
       aria-label="ABT Environmental Logo"
     >
-      {/* Three Leaf Foliage Emblem matching uploaded IMG_4645 */}
-      <g id="abt-leaves" transform="translate(10, 0)">
+      {/* Three-Leaf Foliage Emblem matching IMG_4645 */}
+      <g id="abt-leaves" transform="translate(0, 0)">
         {/* Bottom Stem Chevron Notch */}
         <path 
-          d="M 124 228 L 148 266 L 172 228" 
+          d="M 108 182 L 125 218 L 142 182" 
           stroke={mainColor} 
-          strokeWidth="9.5" 
+          strokeWidth="7.5" 
           strokeLinecap="round" 
           strokeLinejoin="round"
         />
 
         {/* Center Upright Leaf */}
         <path 
-          d="M 148 26 C 92 84 84 162 148 238 C 212 162 204 84 148 26 Z" 
+          d="M 125 14 C 78 68 70 138 125 186 C 180 138 172 68 125 14 Z" 
           stroke={mainColor} 
-          strokeWidth="9.5" 
+          strokeWidth="7.5" 
           strokeLinecap="round" 
           strokeLinejoin="round"
         />
         {/* Center Leaf Vein */}
         <path 
-          d="M 148 76 L 148 236" 
+          d="M 125 54 L 125 184" 
           stroke={mainColor} 
-          strokeWidth="8.5" 
+          strokeWidth="6.5" 
           strokeLinecap="round"
         />
 
         {/* Left Outstretched Leaf */}
         <path 
-          d="M 144 236 C 82 236 28 178 36 122 C 38 104 54 94 72 90 C 96 86 126 142 144 236 Z" 
+          d="M 122 184 C 70 184 20 136 28 88 C 30 74 42 66 58 64 C 80 62 108 108 122 184 Z" 
           stroke={mainColor} 
-          strokeWidth="9.5" 
+          strokeWidth="7.5" 
           strokeLinecap="round" 
           strokeLinejoin="round"
         />
         {/* Left Leaf Center Vein */}
         <path 
-          d="M 64 102 L 140 226" 
+          d="M 52 74 L 118 174" 
           stroke={mainColor} 
-          strokeWidth="8.5" 
+          strokeWidth="6.5" 
           strokeLinecap="round"
         />
 
         {/* Right Outstretched Leaf */}
         <path 
-          d="M 152 236 C 214 236 268 178 260 122 C 258 104 242 94 224 90 C 200 86 170 142 152 236 Z" 
+          d="M 128 184 C 180 184 230 136 222 88 C 220 74 208 66 192 64 C 170 62 142 108 128 184 Z" 
           stroke={mainColor} 
-          strokeWidth="9.5" 
+          strokeWidth="7.5" 
           strokeLinecap="round" 
           strokeLinejoin="round"
         />
         {/* Right Leaf Center Vein */}
         <path 
-          d="M 232 102 L 156 226" 
+          d="M 198 74 L 132 174" 
           stroke={mainColor} 
-          strokeWidth="8.5" 
+          strokeWidth="6.5" 
           strokeLinecap="round"
         />
       </g>
@@ -84,9 +83,9 @@ export const AbtLogo: React.FC<AbtLogoProps> = ({
       <g fill={mainColor} style={{ fontFamily: "'Plus Jakarta Sans', system-ui, -apple-system, sans-serif" }}>
         {/* ABT */}
         <text 
-          x="310" 
-          y="102" 
-          fontSize="106" 
+          x="274" 
+          y="74" 
+          fontSize="76" 
           fontWeight="800" 
           letterSpacing="-0.02em"
         >
@@ -95,23 +94,22 @@ export const AbtLogo: React.FC<AbtLogoProps> = ({
 
         {/* Environmental */}
         <text 
-          x="310" 
-          y="198" 
-          fontSize="78" 
+          x="274" 
+          y="152" 
+          fontSize="68" 
           fontWeight="700" 
-          letterSpacing="-0.015em"
+          letterSpacing="-0.025em"
         >
           Environmental
         </text>
 
         {/* ASBESTOS | LEAD | MOULD */}
         <text 
-          x="312" 
-          y="262" 
-          fontSize="28" 
+          x="276" 
+          y="208" 
+          fontSize="24" 
           fontWeight="700" 
-          letterSpacing="0.22em"
-          fill={subtitleColor}
+          letterSpacing="0.25em"
         >
           ASBESTOS &nbsp;&nbsp;|&nbsp;&nbsp; LEAD &nbsp;&nbsp;|&nbsp;&nbsp; MOULD
         </text>
