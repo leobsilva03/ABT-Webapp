@@ -27,9 +27,9 @@ export const Footer: React.FC<FooterProps> = ({
   };
 
   return (
-    <footer className="bg-[#06221c] text-slate-300 pt-16 pb-12 border-t border-emerald-950">
+    <footer className="bg-[#123C32] text-slate-300 pt-16 pb-12 border-t border-[#0e3028]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10 lg:gap-8 pb-12 border-b border-emerald-900/60">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10 lg:gap-8 pb-12 border-b border-white/10">
           {/* Col 1: Brand Info */}
           <div className="lg:col-span-2">
             <div className="mb-4">
@@ -151,7 +151,7 @@ export const Footer: React.FC<FooterProps> = ({
             </div>
 
             {/* Proudly Canadian Badge matching image */}
-            <div className="mt-6 pt-5 border-t border-emerald-900/50 flex items-center gap-2.5">
+            <div className="mt-6 pt-5 border-t border-white/10 flex items-center gap-2.5">
               <span className="text-xs font-semibold text-slate-200">Proudly Canadian</span>
               {/* Canadian Flag SVG / Emoji */}
               <span className="inline-flex items-center justify-center text-lg" aria-label="Canadian flag">

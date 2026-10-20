@@ -11,18 +11,23 @@ export const AbtLogo: React.FC<AbtLogoProps> = ({
   variant = 'light',
   alt = "ABT Environmental"
 }) => {
-  // Use exact picture uploaded by user without modifying it
+  // Use exact picture uploaded by user without modifying it:
+  // Top header: exact image_37104ec2.png on white background
+  // Footer: exact image_20a90b7a.png on matching dark green background #123C32
   const logoSrc = variant === 'light' 
     ? '/assets/aistudio/image_37104ec2.png' 
-    : '/images/abt-logo-white.png';
+    : '/assets/aistudio/image_20a90b7a.png';
+
+  const width = variant === 'light' ? 2000 : 2016;
+  const height = 512;
 
   return (
     <img 
       src={logoSrc}
       alt={alt}
-      width={2000}
-      height={512}
-      style={{ aspectRatio: '2000 / 512' }}
+      width={width}
+      height={height}
+      style={{ aspectRatio: `${width} / ${height}` }}
       className={`shrink-0 block select-none object-contain ${className}`}
       loading="eager"
       decoding="async"
