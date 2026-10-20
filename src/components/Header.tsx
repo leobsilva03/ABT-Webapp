@@ -46,7 +46,7 @@ export const Header: React.FC<HeaderProps> = ({
     <header className="w-full bg-white sticky top-0 z-40 shadow-sm border-b border-slate-100">
       {/* Top Utility Row */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3.5 flex items-center justify-between gap-4">
-        {/* Brand Logo Lockup - Exact image from uploaded IMG_4645 with deleted white background */}
+        {/* Brand Logo Lockup - Exact image from uploaded IMG_4671 without modifications */}
         <a 
           href="#" 
           onClick={(e) => { e.preventDefault(); scrollToSection('hero'); }}
