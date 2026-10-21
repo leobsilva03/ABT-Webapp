@@ -25,8 +25,20 @@
         }
       }(window.location))
     </script>
-    <script type="module" crossorigin src="/assets/index-B17G7sLB.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-DeJInjAh.css">
+    <script>
+      // Fallback for GitHub Pages when published from repository root (uncompiled main branch)
+      (function() {
+        if (window.location.hostname.endsWith('github.io')) {
+          var p = window.location.pathname;
+          if (!p.includes('/docs/')) {
+            var target = p.endsWith('/') ? p + 'docs/' : p + '/docs/';
+            window.location.replace(target + window.location.search + window.location.hash);
+          }
+        }
+      })();
+    </script>
+    <script type="module" crossorigin src="./assets/index-PsYZwIUz.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-CWRsNSC7.css">
   </head>
   <body class="font-sans antialiased text-slate-800 bg-white selection:bg-[#20815d] selection:text-white">
     <div id="root"></div>
