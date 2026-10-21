@@ -4,10 +4,8 @@ import path from 'path';
 import {defineConfig} from 'vite';
 
 export default defineConfig(({ command }) => {
-  // In AI Studio or development server, base is root '/'
-  // When building for GitHub Pages (https://leobsilva03.github.io/ABT-Webapp/), base is '/ABT-Webapp/'
-  const isAIStudio = Boolean(process.env.APPLET_ID || process.env.K_SERVICE);
-  const base = process.env.VITE_BASE || (isAIStudio || command === 'serve' ? '/' : '/ABT-Webapp/');
+  // In dev server, use '/'; in production build, use relative './' so it works on any GitHub Pages subpath
+  const base = command === 'serve' ? '/' : './';
 
   return {
     base,
