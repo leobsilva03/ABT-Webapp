@@ -11,12 +11,16 @@ export const AbtLogo: React.FC<AbtLogoProps> = ({
   variant = 'light',
   alt = "ABT Environmental"
 }) => {
+  const baseUrl = import.meta.env.BASE_URL.endsWith('/') 
+    ? import.meta.env.BASE_URL 
+    : `${import.meta.env.BASE_URL}/`;
+
   // Use exact picture uploaded by user without modifying it:
   // Top header: exact image_37104ec2.png on white background
   // Footer: exact image_20a90b7a.png on matching dark green background #123C32
   const logoSrc = variant === 'light' 
-    ? '/assets/aistudio/image_37104ec2.png' 
-    : '/assets/aistudio/image_20a90b7a.png';
+    ? `${baseUrl}assets/aistudio/image_37104ec2.png` 
+    : `${baseUrl}assets/aistudio/image_20a90b7a.png`;
 
   const width = variant === 'light' ? 2000 : 2016;
   const height = 512;
