@@ -5,7 +5,7 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
-    base: '/ABT-Webapp/',
+    base: process.env.GITHUB_PAGES ? '/ABT-Webapp/' : './',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
